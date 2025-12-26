@@ -12,11 +12,11 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1348116720112422');
+fbq('init', '4109167032634225');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1348116720112422&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=4109167032634225&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
   <!-- Fonts + Icons -->
@@ -152,9 +152,9 @@ src="https://www.facebook.com/tr?id=1348116720112422&ev=PageView&noscript=1"
 
   <!-- ✅ Easy Variables -->
   <script>
-    const SITE_NAME = "Harsh bhagat™ ";       // 🔄 Brand Name
+    const SITE_NAME = "Shariah Compliant™ ";       // 🔄 Brand Name
     const SITE_IMAGE = "image.png";              // 🔄 Logo/Image path or URL
-    const TELEGRAM_LINK = "https://telegram.me/+eD2VKUN6UudmZTVl"; // 🔄 Telegram Link / Website Link
+    const TELEGRAM_LINK = "https://t.me/+nl3bbIdHVuUzMGQ9"; // 🔄 Telegram Link / Website Link
   </script>
 
   <section class="hero">
@@ -171,7 +171,7 @@ src="https://www.facebook.com/tr?id=1348116720112422&ev=PageView&noscript=1"
         <!-- <div class="stat-box">7 496 subscribers</div> -->
       </div>
 
-      <a id="cta-btn-1" class="cta-btn">
+      <a id="cta-btn-1" class="cta-btn" onclick="customEvent()">
         <i class="fa-brands fa-telegram me-1"></i> Join on Telegram
       </a>
 
@@ -198,6 +198,10 @@ src="https://www.facebook.com/tr?id=1348116720112422&ev=PageView&noscript=1"
     document.getElementById("cta-btn-2").href = TELEGRAM_LINK;
   </script>
 
-
+     <script>
+        function customEvent() {
+            fbq('track', 'Subscribe');
+        }
+    </script>
 
 </body></html>
